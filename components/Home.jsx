@@ -12,7 +12,7 @@ export default function Home() {
                 My mission is to develop scalable, user-centric software solutions that not only meet today's challenges but also anticipate the needs of tomorrow. 
                 I am committed to creating applications that are not just functional but also intuitive and impactful, delivering value at every step.
             </p>
-            <button onClick={() => window.location.href="./about"}>Learn More About Me</button>
+            <button onClick={() => window.location.href="/about"}>Learn More About Me</button>
         </>
     )
 }
