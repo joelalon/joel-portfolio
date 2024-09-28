@@ -1,3 +1,8 @@
+/* Filename: MainRouter.jsx
+   Student's Name: Joel Alon
+   Student ID: 301398424
+   Date: Sept. 27, 2024 */
+
 import React from "react"
 import { Route, Routes } from "react-router-dom"
 import About from "../components/About"
