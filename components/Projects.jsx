@@ -9,13 +9,13 @@ export default function Projects() {
         const modal = document.getElementById("imageModal");
         const modalImg = document.getElementById("modalImage");
     
-        modal.style.display = "block"; // Show the modal
-        modalImg.src = imageSrc; // Set the image source
+        modal.style.display = "block";
+        modalImg.src = imageSrc;
     }
     
     function closeModal() {
         const modal = document.getElementById("imageModal");
-        modal.style.display = "none"; // Hide the modal when clicked
+        modal.style.display = "none";
     }    
 
 
