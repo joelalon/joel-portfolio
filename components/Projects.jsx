@@ -3,6 +3,19 @@
    Student ID: 301398424
    Date: Sept. 27, 2024 */
 
+// Import images from assets
+import BA_classDiagram from "../src/assets/BA_class-diagram.png";
+import BA_output1 from "../src/assets/BA_output.png";
+import BA_output2 from "../src/assets/BA_output2.png";
+
+import SRS_domainClassDiagram from "../src/assets/SRS_domain-class-diagram.png";
+import SRS_useCaseDiagram from "../src/assets/SRS_use-case-diagram.jpg";
+import SRS_sequenceDiagram from "../src/assets/SRS_sequence-diagram.png";
+
+import VRGMS_ERD from "../src/assets/VRGMS_ERD.png";
+import VRGMS_tables from "../src/assets/VRGMS_tables.png";
+import VRGMS_query from "../src/assets/VRGMS_query.png";
+
 export default function Projects() {
 
     function openModal(imageSrc) {
@@ -18,7 +31,6 @@ export default function Projects() {
         modal.style.display = "none";
     }    
 
-
     return (
         <>
             <h1>Projects</h1>
@@ -27,9 +39,9 @@ export default function Projects() {
             <section>
                 <h2>Banking Application</h2>
                 <div className="gallery">
-                    <img src="src/assets/BA_class-diagram.png" alt="Banking Application Class Diagram" onClick={() => openModal('src/assets/BA_class-diagram.png')} />
-                    <img src="src/assets/BA_output.png" alt="Banking Application Output" onClick={() => openModal('src/assets/BA_output.png')} />
-                    <img src="src/assets/BA_output2.png" alt="Banking Application Output #2" onClick={() => openModal('src/assets/BA_output2.png')} />
+                    <img src={BA_classDiagram} alt="Banking Application Class Diagram" onClick={() => openModal(BA_classDiagram)} />
+                    <img src={BA_output1} alt="Banking Application Output" onClick={() => openModal(BA_output1)} />
+                    <img src={BA_output2} alt="Banking Application Output #2" onClick={() => openModal(BA_output2)} />
                 </div>
                 <p>
                     Collaborated with a team to develop a comprehensive banking application using C# in Visual Studio Code. 
@@ -43,9 +55,9 @@ export default function Projects() {
             <section>
                 <h2>Software Requirements Specification (SRS) Document</h2>
                 <div className="gallery">
-                    <img src="src/assets/SRS_domain-class-diagram.png" alt="SRS Domain Class Diagram" onClick={() => openModal('src/assets/SRS_domain-class-diagram.png')} />
-                    <img src="src/assets/SRS_use-case-diagram.jpg" alt="SRS Use Case Diagram" onClick={() => openModal('src/assets/SRS_use-case-diagram.jpg')} />
-                    <img src="src/assets/SRS_sequence-diagram.png" alt="SRS Sequence Diagram" onClick={() => openModal('src/assets/SRS_sequence-diagram.png')} />
+                    <img src={SRS_domainClassDiagram} alt="SRS Domain Class Diagram" onClick={() => openModal(SRS_domainClassDiagram)} />
+                    <img src={SRS_useCaseDiagram} alt="SRS Use Case Diagram" onClick={() => openModal(SRS_useCaseDiagram)} />
+                    <img src={SRS_sequenceDiagram} alt="SRS Sequence Diagram" onClick={() => openModal(SRS_sequenceDiagram)} />
                 </div>
                 <p>
                     Worked in an Agile team to create an SRS document for a web application named Quick Recipe Generator. 
@@ -59,9 +71,9 @@ export default function Projects() {
             <section>
                 <h2>Video Game Retailer Management System (VGRMS)</h2>
                 <div className="gallery">
-                    <img src="src/assets/VRGMS_ERD.png" alt="VGRMS ERD" onClick={() => openModal('src/assets/VRGMS_ERD.png')} />
-                    <img src="src/assets/VRGMS_tables.png" alt="VRGMS Tables" onClick={() => openModal('src/assets/VRGMS_tables.png')} />
-                    <img src="src/assets/VRGMS_query.png" alt="VGRMS Query" onClick={() => openModal('src/assets/VRGMS_query.png')} />
+                    <img src={VRGMS_ERD} alt="VGRMS ERD" onClick={() => openModal(VRGMS_ERD)} />
+                    <img src={VRGMS_tables} alt="VRGMS Tables" onClick={() => openModal(VRGMS_tables)} />
+                    <img src={VRGMS_query} alt="VGRMS Query" onClick={() => openModal(VRGMS_query)} />
                 </div>
                 <p>
                     Co-developed a comprehensive database system to streamline operations for a video game retailer, addressing key market needs. 
